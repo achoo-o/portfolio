@@ -1,30 +1,30 @@
 export default function Tags() {
   return (
-    <section className="flex flex-row flex-wrap gap-5 justify-center">
-      <div className="py-2 px-3 bg-gray-200 rounded-lg">
-        <p>React</p>
-      </div>
-      <div className="py-2 px-3 bg-gray-200 rounded-lg">
-        <p>Node</p>
-      </div>
-      <div className="py-2 px-3 bg-gray-200 rounded-lg">
-        <p>Knex</p>
-      </div>
-      <div className="py-2 px-3 bg-gray-200 rounded-lg">
-        <p>Sass</p>
-      </div>
-      <div className="py-2 px-3 bg-gray-200 rounded-lg">
-        <p>React</p>
-      </div>
-      <div className="py-2 px-3 bg-gray-200 rounded-lg">
-        <p>Node</p>
-      </div>
-      <div className="py-2 px-3 bg-gray-200 rounded-lg">
-        <p>Knex</p>
-      </div>
-      <div className="py-2 px-3 bg-gray-200 rounded-lg">
-        <p>Sass</p>
-      </div>
-    </section>
+    <ul className="flex lg:flex-2 flex-row flex-wrap gap-5 justify-center items-start pt-8 lg:justify-end lg:basis-1/3">
+      <li className="py-2 px-3 bg-gray-200 rounded-lg">
+        React
+      </li>
+      <li className="py-2 px-3 bg-gray-200 rounded-lg">
+        Node
+      </li>
+      <li className="py-2 px-3 bg-gray-200 rounded-lg">
+        Knex
+      </li>
+      <li className="py-2 px-3 bg-gray-200 rounded-lg">
+        Sass
+      </li>
+      <li className="py-2 px-3 bg-gray-200 rounded-lg">
+        React
+      </li>
+      <li className="py-2 px-3 bg-gray-200 rounded-lg">
+        Node
+      </li>
+      <li className="py-2 px-3 bg-gray-200 rounded-lg">
+        Knex
+      </li>
+      <li className="py-2 px-3 bg-gray-200 rounded-lg">
+        Sass
+      </li>
+    </ul>
   )
 }
