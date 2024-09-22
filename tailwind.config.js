@@ -70,7 +70,7 @@ export default {
         100: '#1f4a62',
       },
       tag: {
-        bg: 'e1e1e1',
+        bg: '787E82',
         text: '787e82',
       },
       gray: {
