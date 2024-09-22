@@ -4,9 +4,9 @@ import Tags from './home/Tags'
 
 export default function Main() {
   return (
-    <main className="wrapper">
-      <div className="wrapper-item">
-        <div className="col-80-pc">
+    <main className="">
+      <div className="">
+        <div className="">
           <Intro />
           <CTA />
         </div>

@@ -1,28 +1,28 @@
 export default function Tags() {
   return (
-    <section className="tags-wrapper">
-      <div className="tags-item">
+    <section className="">
+      <div className="">
         <p>React</p>
       </div>
-      <div className="tags-item">
+      <div className="">
         <p>Node</p>
       </div>
-      <div className="tags-item">
+      <div className="">
         <p>Knex</p>
       </div>
-      <div className="tags-item">
+      <div className="">
         <p>Sass</p>
       </div>
-      <div className="tags-item">
+      <div className="">
         <p>React</p>
       </div>
-      <div className="tags-item">
+      <div className="">
         <p>Node</p>
       </div>
-      <div className="tags-item">
+      <div className="">
         <p>Knex</p>
       </div>
-      <div className="tags-item">
+      <div className="">
         <p>Sass</p>
       </div>
     </section>
