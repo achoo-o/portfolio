@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Intro() {
   return (
     <section className="">
@@ -9,7 +11,9 @@ export default function Intro() {
           Currently doodling and creating engaging projects from Auckland, New
           Zealand.
         </p>
-        <button className="mt-14 bg-primary-100 text-white text-lg font-semibold py-2 px-7 rounded-md tracking-wider">Projects</button>
+        <Link to="/projects">
+          <button className="mt-14 bg-primary-100 text-white text-lg font-semibold py-2 px-7 rounded-md tracking-wider">Projects</button>
+        </Link>
       </div>
     </section>
   )

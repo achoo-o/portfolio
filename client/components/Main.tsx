@@ -1,5 +1,5 @@
-import Intro from './home/Intro'
-import Tags from './home/Tags'
+import Intro from './main/Intro'
+import Tags from './main/Tags'
 
 export default function Main() {
   return (
