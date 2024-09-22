@@ -1,15 +1,11 @@
-import Intro from "./home/Intro";
-import CTA from "./home/CTA";
-import Tags from "./home/Tags";
+import Intro from './home/Intro'
+import Tags from './home/Tags'
 
 export default function Main() {
   return (
-    <main className="wrapper">
-      <section className="wrapper-item">
-        <Intro />
-        <CTA />
-        <Tags />
-      </section>
+    <main className="flex flex-col gap-8 p-10 pt-10 text-center tracking-wide lg:flex-row lg:gap-x-20 lg:p-40 lg:text-left lg:items-start">
+          <Intro />
+          <Tags />
     </main>
   )
 }
