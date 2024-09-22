@@ -35,7 +35,7 @@ export default function Main() {
   }
 
   return (
-    <main className="flex flex-col gap-5 w-full p-5 lg:grid lg:px-20 lg:pt-10 lg:max-h-screen">
+    <main className="flex flex-col gap-5 w-full p-5 lg:grid lg:px-20 lg:pt-10">
       <div className="">
         <h1 className="mb-3 text-black text-5xl lg:text-3xl font-bold">
           {selectedProject.name}

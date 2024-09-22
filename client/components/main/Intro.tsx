@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Intro() {
   return (
-    <section className="">
+    <section className="mt-10 lg:mt-1">
       <h1 className="mb-4 text-black text-5xl font-medium">Amy Jackson</h1>
       <h2 className="mb-8 text-primary-100 text-2xl tracking-wider font-medium">Front-end Software Developer</h2>
       <div>
