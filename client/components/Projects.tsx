@@ -5,23 +5,23 @@ export default function Main() {
   const projects = [
     {
       name: 'pawpals', 
-      description: 'Made as part of the DevAcademy course in a group of 5. Pawpals is a website made to bring pet-lovers together.', 
+      description: 'Made as part of the DevAcademy course in a group of 5, pawpals is a website made to bring pet-lovers together.', 
       link: 'https://pawpals-matai-24.devacademy.nz/',
-      thumbnail: 'pawpals.jpg',
+      thumbnail: 'pawpals.png',
       alt: ''
     },
     {
       name: 'Whakataukī API', 
-      description: 'An API promoting Te Reo Māori using Whakataukī, Māori "proverbs".', 
+      description: 'This project was made to promote Te Reo Māori usage in the developer space via Whakataukī, Māori "proverbs".', 
       link: 'https://whakatauki-api.up.railway.app/',
-      thumbnail: 'whakatauki.jpg',
+      thumbnail: 'whakatauki.png',
       alt: ''
     },
     {
       name: 'My \'First\' Project', 
       description: 'A simple rock, paper, scissors project made as part of The Odin Project.', 
       link: 'https://achoo-o.github.io/paper-scissors-rock/paperScissorsRock.html',
-      thumbnail: 'rockpaperscissors.jpg',
+      thumbnail: 'rockpaperscissors.png',
       alt: ''
       },
   ]
@@ -38,7 +38,8 @@ export default function Main() {
     <main className="flex flex-col gap-5 w-full p-5 lg:grid lg:px-20 lg:pt-10">
       <div className="">
         <h1 className="mb-3 text-black text-5xl lg:text-3xl font-bold">
-          {selectedProject.name}
+          {selectedProject.name}&nbsp;&nbsp;
+          <a className="text-gray-500 text-xl hover:text-primary-100 transition-all" href={selectedProject.link} target="_blank" rel='noreferrer'>view project</a>
         </h1>
         <p className="text-xl text-[#222927] lg:text-base">
           {selectedProject.description}
@@ -46,7 +47,7 @@ export default function Main() {
       </div>
       <div className="lg:grid lg:grid-cols-[70%_30%]">
         {/* display / image */}
-        <div className="aspect-square h-144 lg:aspect-video border-2 overflow-hidden">
+        <div className="aspect-square max-h-144 lg:aspect-video border-2 overflow-hidden">
           <img className="object-cover" src={`.././images/${selectedProject.thumbnail}`} alt={selectedProject.alt}></img>
         </div>
         {/* list */}
@@ -59,7 +60,7 @@ export default function Main() {
                 key={name} 
                 value={i} 
                 onClick={(e) => handleClick(e)} 
-                className="py-6 px-5 font-semibold text-gray-800 text-2xl tracking-wide border-y border-x border-[#bebebe] bg-gray-100 focus:bg-white focus:text-primary-100">
+                className="transition-all py-6 px-5 font-semibold text-gray-800 text-2xl tracking-wide border-y border-x border-[#bebebe] bg-gray-100 focus:bg-white focus:text-primary-100">
                   {name}
                 </button>
               )
