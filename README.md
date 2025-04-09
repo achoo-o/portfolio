@@ -1,23 +1,11 @@
 # Portfolio
-I want a portfolio that displays my name, a short description, and a link to:
-1. My Projects
-2. An 'about me' section
+[![Frontend][Frontend-image]][Frontend-url]
+[![Backend][Backend-image]][Backend-url]
 
-My main goal is to have a somewhat simple design based off my chosen colour palette of blue and orange. Then, I want to create interest by adding smooth CSS animations to the button and background.
+A professional portfolio showcasing my projects & background.
 
-[Wireframe](https://www.figma.com/design/Qrmilc4MvFE5RetmRwywzR/Portfolio?node-id=0-1&t=zZY8mia1oPkxKFuk-1)
-
-Features:
-- [ ] React Routing
-- [ ] CSS Animations using SCSS
-- [ ] Project lists with external links & previews
-- [ ] (On Completion) a unique domain name
-
-## Packages Included
-
-- react
-- react-router-dom
-- express
-- vite
-- vitest
-- eslint
+<!-- Markdown link & img dfn's -->
+[Frontend-image]: https://img.shields.io/badge/Built_With-React-blue?style=for-the-badge
+[Frontend-url]: https://react.dev/
+[Backend-image]: https://img.shields.io/badge/Featuring-p5.js-purple?style=for-the-badge
+[Backend-url]: https://p5js.org/
